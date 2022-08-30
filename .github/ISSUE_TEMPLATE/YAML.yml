@@ -32,7 +32,7 @@ body:
       label: Expected
       description: Please tell us the expected outcome
       render: shell
-      value: "Expected outcome"
+      value: "Expected outcome!"
     validations:
       required: true
   - type: dropdown
@@ -86,7 +86,7 @@ body:
     id: terms
     attributes:
       label: Code of Conduct
-      description: By submitting this issue, you have fully described the issue 
+      description: By submitting this issue, you have fully described the issue? 
       options:
         - label: I have documented all of the infomation 
           required: true
