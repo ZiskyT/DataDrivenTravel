@@ -57,6 +57,16 @@ body:
         - Safari
         - Microsoft Edge
   - type: dropdown
+    id: OS
+    attributes:
+      label: What Operating system are you seeing the problem on?
+      multiple: true
+      options:
+        - Windows 11
+        - Windows 10
+        - Windows 7
+        - MAC os 
+  - type: dropdown
     id: Severity 
     attributes:
       label: What is the severity of the defect?
