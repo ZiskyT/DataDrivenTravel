@@ -27,7 +27,7 @@ body:
     validations:
       required: true
   - type: textarea
-    id: logs
+    id: Expected
     attributes:
       label: Expected
       description: Please tell us the expected outcome
