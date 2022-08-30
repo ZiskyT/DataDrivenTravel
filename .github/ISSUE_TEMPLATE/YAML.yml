@@ -46,6 +46,16 @@ body:
         - Chrome
         - Safari
         - Microsoft Edge
+  - type: dropdown
+    id: Severity 
+    attributes:
+      label: What is the severity of the defect?
+      multiple: true
+      options:
+        - Urgent
+        - High
+        - Medium
+        - Low
   - type: textarea
     id: logs
     attributes:
@@ -58,5 +68,5 @@ body:
       label: Code of Conduct
       description: By submitting this issue, you agree to follow our [Code of Conduct](https://example.com)
       options:
-        - label: I agree to follow this project's Code of Conduct
+        - label: I have documented all of the infomation 
           required: true
